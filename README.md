@@ -2,7 +2,7 @@
 
 This is an effort to create a snappy Blockchain Explorer with an emphasis on aesthetics in addition to data. I've gotten a little bit tired of perusing blocks and feeling like I'm looking at an AngelFire page from 1998, so I rigged this thing together (not to say EtherScan et all aren't doing us a service as well... just saying I like my internet to be a lil pretty.)
 
-Shoutout to Hatch Crypto for teaching me up.
+Shoutout to Hatch Crypto for coaching me up.
 
 
 ## Boilerplate React Info Below
