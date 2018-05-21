@@ -1,3 +1,6 @@
+body{
+  background-image: url("what-the-hex.png");
+}
 .App {
   text-align: center;
 }
@@ -8,10 +11,10 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: white;
+  height: 180px;
   padding: 20px;
-  color: white;
+  color: #3c3c3d;
 }
 
 .App-title {
@@ -20,6 +23,32 @@
 
 .App-intro {
   font-size: large;
+}
+
+
+.Nav-link{
+  background-color: #3c3c3d;
+  border: 5px solid #3c3c3d;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  position: relative;
+  top: -35px;
+}
+.Nav-link:hover{
+    background-color: #ffffff;
+    color: #3c3c3d;
+  }
+
+.Hash-link{
+  text-decoration: none;
+  color: #3C3C3D;
+}
+
+.Hash-link:hover{
+  color: #ECF0F1;
 }
 
 @keyframes App-logo-spin {

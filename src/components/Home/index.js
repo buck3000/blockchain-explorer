@@ -47,16 +47,15 @@ class Home extends Component {
         _.each(this.state.block_ids, (value, index) => {
           tableRows.push(
             <tr key={this.state.block_hashes[index]}>
-              <td className="tdCenter">{this.state.block_ids[index]}</td>
-              <td><Link to={`/block/${this.state.block_hashes[index]}`}>{this.state.block_hashes[index]}</Link></td>
+              <td className="tdCenter block">{this.state.block_ids[index]}</td>
+              <td><Link className="Hash-link" to={`/block/${this.state.block_hashes[index]}`}>{this.state.block_hashes[index]}</Link></td>
             </tr>
           )
         });
         return (
           <div className="Home">
-           <h2>Home page</h2>
-           Current Block: {this.state.curr_block}
-           <table>
+           <h2>Current Block<br/><span className="Current-block">{this.state.curr_block}</span></h2>
+           <table className="Hash-table">
              <thead><tr>
                <th>Block No</th>
                <th>Hash</th>

@@ -36,7 +36,7 @@ class Block extends Component {
       <div className="Block">
         <h2>Block Info</h2>
         <div>
-          <table>
+          <table className="Hash-table">
             <tbody>
               <tr><td className="tdLabel">Height: </td><td>{this.state.block.number}</td></tr>
               <tr><td className="tdLabel">Timestamp: </td><td>{this.state.block_ts}</td></tr>
